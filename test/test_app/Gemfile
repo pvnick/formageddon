@@ -6,6 +6,8 @@ gem 'rake', '~> 0.8.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+
+gem 'delayed_job', '~> 2.1.0'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'pg'
 gem 'devise'
@@ -13,9 +15,8 @@ gem 'haml'
 gem 'hpricot'
 gem 'fakeweb'
 gem 'mechanize'
-gem 'delayed_job'
 
-#gem "formageddon", '0.0.0', :path => "/Users/aross/pcf-work/gitbranches/formageddon"
+gem "formageddon", '0.0.0', :path => "/home/ubuntu/formageddon"
 
 
 group :test do
@@ -30,10 +31,10 @@ group :test do
 end
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
 # gem 'ruby-debug'
