@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'rails/all'
+
 load 'lib/tasks/tasks.rake'
 
 begin

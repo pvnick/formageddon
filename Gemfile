@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'haml'
-gem 'mechanize', :git => 'git://github.com/tenderlove/mechanize.git'
+gem 'mechanize' #, :git => 'git://github.com/tenderlove/mechanize.git'
 gem 'delayed_job'
+gem 'jeweler'
 
 group :test do
   gem 'cucumber-rails'
@@ -15,7 +16,7 @@ group :test do
   gem 'fakeweb'
   
   # this is to run the test app
-  gem 'rails', '3.0.0'
+  gem 'rails', '3.2.6'
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'devise'
 end
