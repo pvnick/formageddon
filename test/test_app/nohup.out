@@ -1,0 +1,7 @@
+/var/lib/gems/1.9.1/gems/rake-0.8.7/lib/rake/alt_system.rb:32: Use RbConfig instead of obsolete and deprecated Config.
+WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically loaded 2.9.0
+[2013-07-07 05:03:23] INFO  WEBrick 1.3.1
+[2013-07-07 05:03:23] INFO  ruby 1.9.3 (2012-04-20) [x86_64-linux]
+[2013-07-07 05:03:23] INFO  WEBrick::HTTPServer#start: pid=14060 port=3000
+[2013-07-07 05:03:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2013-07-07 05:13:01] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
